@@ -1,0 +1,253 @@
+body {
+    background-color: #eee;
+    margin: 0 1%;
+    /* padding-top: 1%; */
+}
+
+.row {
+    margin-top: 1%;
+}
+
+.clicks {
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.shapes {
+    padding-left: 14px;
+}
+
+.logo {
+    width: 25%;
+    margin-top: 1rem;
+}
+
+.cuboid {
+    width: 90%;
+    background-color: #2E63F6;
+    color: #fff;
+    height: 1.8rem;
+    border-radius: 3px;
+    margin-top: 1rem;
+}
+
+
+.boundary {
+    border-radius: 3px;
+    width: 100%;
+    margin-top: 1%;
+}
+
+.links {
+    padding-left: 18px;
+}
+
+.links a p {
+    margin-top: 1rem;
+    font-size: 0.8rem;
+}
+
+.links a,
+.boundary a,
+.clicks a {
+    text-decoration: none;
+    color: #000;
+}
+
+.help {
+    padding-left: 10px;
+    font-size: 0.8rem;
+}
+
+.help1 {
+    margin-top: 130%;
+}
+
+.header {
+    padding-top: 1%;
+}
+
+.profile-img {
+    width: 29px;
+}
+
+.code {
+    font-size: 0.8rem;
+}
+
+.drift {
+    background-color: #666;
+}
+
+.left {
+    background-color: #fff;
+    margin: 1%;
+    padding-top: 1%;
+    font-size: 1rem;
+    height: 100%;
+}
+
+.left a {
+    text-decoration: none;
+    color: #000;
+}
+
+.resize {
+    font-size: small;
+    margin-top: 7%;
+}
+
+.blue {
+    color: #3680da;
+}
+
+.sale {
+    border: none;
+    border-radius: 3px;
+    background: #5EB182;
+    color: green;
+    width: 55%
+}
+
+.add {
+    background: #2E63F6;
+    border: none;
+    color: white;
+    width: 40%;
+    float: right;
+    border-radius: 3px;
+}
+
+.notify {
+    font-size: 14px;
+}
+
+.round {
+    border-radius: 3px;
+    padding-left: 4%;
+    background: #eee;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.contact {
+    background-color: #eee;
+}
+
+.mail {
+    float: right;
+}
+
+/*-----------------*/
+.midtop {
+    background-color: #fff;
+    width: 99%;
+}
+
+.toptable {
+    font-size: 0.5rem;
+    margin-bottom: 0;
+}
+
+.toptable tr td p {
+    text-align: center;
+}
+
+.property {
+    margin-top: 25%;
+}
+
+.plain {
+    background-color: #fff;
+    width: 99%;
+    font-size: 0.65rem;
+    padding-top: 2%;
+}
+
+.subhead {
+    margin-bottom: 2%;
+}
+
+.selection {
+    text-align: center;
+}
+
+.hl,
+.hm,
+.hr {
+    padding-bottom: 1rem;
+}
+
+.hl {
+    float: left;
+    text-align: center;
+    width: 30%;
+    border-bottom: 1px solid #2E63F6;
+}
+
+.hr {
+    float: right;
+    width: 30%;
+    text-align: center;
+}
+
+.shift {
+    float: right;
+    font-weight: 500;
+}
+
+.readmore {
+    text-decoration: none;
+}
+
+/*-------------------*/
+.right {
+    background-color: #fff;
+    width: 23%;
+    height: 100%;
+    font-size: 1rem;
+}
+
+.right a {
+    text-decoration: none;
+    color: #000;
+}
+
+.short {
+    margin-top: 5%;
+}
+
+.boxes {
+    float: right;
+}
+
+.toggle {
+    padding-right: 2%;
+    float: right;
+}
+
+.history {
+    color: #fff;
+    border: none;
+    background: #2E63F6;
+}
+
+@media screen and (max-width: 650px) {
+    .right {
+        width: 100%;
+    }
+
+    .help1 {
+        margin-top: 75%;
+    }
+
+    .align {
+        margin-bottom: 10%;
+    }
+
+    .top-icon {
+        margin-top: 10%;
+    }
+}
